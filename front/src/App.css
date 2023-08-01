@@ -1,0 +1,22 @@
+.App{
+   
+   /* SearchBar */
+   flex-direction:column;
+   align-items:center;
+   
+   /* background */
+   width: 100vw;
+   height: 100vh;
+   background-image: url('C:\Users\ASUS\OneDrive\Escritorio\HENRY BOOTCAMP\M2 Front-End\Proyecto Integrador\CÓDIGO\Int-VITE (2do intento)\front\src\image\942061.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   
+   /* text */
+   text-align: center;
+   font-family:monospace;
+   color: white;
+
+}
+
+
