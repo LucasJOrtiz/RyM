@@ -1,2 +1,2 @@
 # RyM
-Este Repositorio es mi Primera App en Henry
+Este Repositorio contiene mi Primera App en Henry, para verlo se puede ir al MASTER
