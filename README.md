@@ -1,2 +1,2 @@
 # RyM
-Este Repositorio contiene mi Primera App en Henry, para verlo se puede ir al MASTER
+Este Repositorio contiene mi Primera App en en instituto Henry, para verlo ir al MASTER.
