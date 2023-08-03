@@ -7,16 +7,20 @@
    /* background */
    width: 100vw;
    height: 100vh;
-   background-image: url('C:\Users\ASUS\OneDrive\Escritorio\HENRY BOOTCAMP\M2 Front-End\Proyecto Integrador\CÓDIGO\Int-VITE (2do intento)\front\src\image\942061.jpg');
+   background-image: url('C:\Users\ASUS\OneDrive\Escritorio\HENRY BOOTCAMP\M2 Front-End\Proyecto Integrador\CÓDIGO\Int-VITE (2do intento - SIN ERRORES)\front\src\image\942061.jpg');
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
    display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
    
    /* text */
    text-align: center;
-   font-family:monospace;
-   color: white;
-
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:x-large;
+   color: rgb(2, 249, 26);
 }
 
 

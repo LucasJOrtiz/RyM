@@ -1,3 +1,4 @@
+import style from './Detail.module.css'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
@@ -24,12 +25,12 @@ const Detail = ()=>{
 
     return(
         <div>
-            <img src={character.image && character.image} alt="" />
-            <h1>Nombre: "{character.name && character.name}"</h1>
-            <h1>Estado: "{character.status && character.status}"</h1>
-            <h1>Especie: "{character.species && character.species}"</h1>
-            <h1>Genero: "{character.gender && character.gender}"</h1>
-            <h1>Origen: "{character.origin?.name && character.origin?.name}"</h1>
+            <img className={style.image} src={character.image && character.image} alt="" />
+            <h1 className={style.data}>Nombre: "{character.name && character.name}"</h1>
+            <h1 className={style.data}>Estado: "{character.status && character.status}"</h1>
+            <h1 className={style.data}>Especie: "{character.species && character.species}"</h1>
+            <h1 className={style.data}>Genero: "{character.gender && character.gender}"</h1>
+            <h1 className={style.data}>Origen: "{character.origin?.name && character.origin?.name}"</h1>
         </div>
     )
 };

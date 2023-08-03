@@ -1,10 +1,13 @@
 .div{
     width: 100vw;
-    height: 92vh;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 100vh;
+    overflow:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    font-size:small;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(251, 250, 250);
 }
 
 

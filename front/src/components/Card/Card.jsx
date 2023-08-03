@@ -2,12 +2,12 @@ import style from './Card.module.css';
 import { Link } from 'react-router-dom';
 
 
- const Card = ({id, name, status,species, gender, origin, image,onClose}) =>{
+ const Card = ({id, name, species, gender, image, onClose}) =>{
 
 
    return (
       <div className={style.div}>
-         <button className={style.btn} onClick={()=> onClose(id)} >X</button>
+         <button className={style.btn} onClick={()=> onClose(id)}> X </button>
          <img className={style.image} src={image} alt={name} />
 
         <Link to={`/detail/${id}/`}>
